@@ -43,6 +43,35 @@ $ yay -S plasma
 $ yay -S sddm
 $ yay -S cmake
 $ yay -S sddm-kcm
+$ sudo systemctl status lxdm
+$ sudo systemctl enable sddm
+$ sudo reboot
 ```
 8. Install Login Theme https://github.com/Catvert/kde-plasma-chili
 Go to `System Settings > Startup and Shutdown > Login Screen (SDDM) > Get New Theme` and search for "Chili for KDE".
+9. Follow this https://github.com/nhanb/com.nerdyweekly.animated to enable animated gifs
+10. Install Kvantum engine https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md
+```
+$ yay -S kvantum-qt5-git
+```
+  - Select Kvantum from System `Settings → Application Style → Widget Style` and apply it.
+  - Select Kvantum from System `Settings → Color → Scheme` and click Apply. You could change the color scheme later if you choose another Kvantum theme with Kvantum Manager (see "Using Other Themes" below).
+11. Install Adapta Nokto theme: https://github.com/PapirusDevelopmentTeam/adapta-kde
+```
+//  INSTALL
+$ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | sh
+// UNINSTALL
+$ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | uninstall=true sh
+```
+12. Install Bibata cursor https://www.gnome-look.org/p/1197198/
+13. Install Papirus Adapta icons https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+14. Install Latte dock + Plank
+```
+$ yay -S latte-dock
+//  Run latte
+```
+15. Install Plank
+```
+$ yay -S plank
+```
+16. Install Helium https://store.kde.org/p/998869/
