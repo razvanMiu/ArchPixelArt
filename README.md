@@ -44,3 +44,5 @@ $ yay -S sddm
 $ yay -S cmake
 $ yay -S sddm-kcm
 ```
+8. Install Login Theme https://github.com/Catvert/kde-plasma-chili
+Go to `System Settings > Startup and Shutdown > Login Screen (SDDM) > Get New Theme` and search for "Chili for KDE".
