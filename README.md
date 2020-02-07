@@ -35,7 +35,9 @@ $ nmcli d wifi connect *SSID* password *password*
 ```
 6. (Optional) Install useful applications
 ```
-$ yay -S nautilus terminator google-chrome gnome-disk-utility 
+$ yay -S doplhin  // File manager
+$ yay -S google-chrome  // Browser
+$ yay -S gnome-disk-utility // Utilities
 ```
 7. Install KDE Plasma
 ```
