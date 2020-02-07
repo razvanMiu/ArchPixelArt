@@ -35,7 +35,7 @@ $ nmcli d wifi connect *SSID* password *password*
 ```
 6. (Optional) Install useful applications
 ```
-$ yay -S nautilus terminator google-chrome
+$ yay -S nautilus terminator google-chrome gnome-disk-utility 
 ```
 7. Install KDE Plasma
 ```
@@ -43,7 +43,7 @@ $ yay -S plasma
 $ yay -S sddm
 $ yay -S cmake
 $ yay -S sddm-kcm
-$ sudo systemctl status lxdm
+$ sudo systemctl disable lxdm
 $ sudo systemctl enable sddm
 $ sudo reboot
 ```
